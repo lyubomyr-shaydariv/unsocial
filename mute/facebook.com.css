@@ -1,0 +1,18 @@
+@-moz-document domain("facebook.com") {
+/* no add friends */ button.FriendRequestAdd, span.addFriendText, a[href^='/find-friends'],
+/* no block */ a[href^='/ajax/privacy/block_user.php'],
+/* no comments */ div.UFIMentionsInputWrap, a.comment_link,
+/* no create post */ div[data-testid='react-composer-root'], #pagelet_composer,
+/* no follow */ a[role='button'][ajaxify^='/ajax/follow/follow_profile.php'], #fbPhotoSnowliftSubscribe,
+/* no events */ #event_button_bar > div > div:first-child, a[data-testid='event-create-split-menu'], a[ajaxify^='/events/feed/watch'], a[ajaxify^='/events/ajax/dashboard/suggestion/watch'], a[ajaxify^='/ajax/calendar/join.php'],
+/* no join */ a[ajaxify^='/ajax/eh.php'], a[ajaxify^='/ajax/groups/membership'],
+/* no like */ a.UFILikeLink, a[ajaxify^='/ufi/'],
+/* no messages to */ a[role='button'][href^='/messages/t/'],
+/* no publish */ a[href^='/ads/growth'],
+/* no report */ a[href^='/ajax/nfx/start_dialog'], a[href^='/ajax/report.php'], a[ajaxify^='/ajax/report/id'],
+/* no share */ div[endpoint^='/share/'], a[data-testid='ufi_share_link_placeholder'], a[href^='/ajax/sharer/']
+/* TODO no video call */ {
+	display: none !important;
+}
+
+}
