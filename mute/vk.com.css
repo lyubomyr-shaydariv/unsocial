@@ -1,0 +1,22 @@
+@-moz-document domain("vk.com") {
+/* no blocks */ a[onclick^='Profile.toggleBlacklist'],
+/* no comments */ .post_full_like,
+/* no friends */ button[onclick^='return Profile.toggleFriend'], div.add_btn, button[onclick^='searcher.subscribe'],
+/* no follow */ button[onclick^='Public.subscribe'],
+/* no gifts */ #profile_send_gift_btn,
+/* no im */ .im-page--chat-input,
+/* no join */ button[onclick^='Groups.enter'],
+/* no likes */ .like_wrap, .post_like, #pv_like, .pv_like_fs_wrap, #mv_like_wrap,
+/* no post */ #submit_post_box,
+/* no reply */ .submit_post_box, .bp_reply, .reply_box_inner_wrap, .reply_link_wrap,
+/* no report */ a[onclick^='wall.markAsSpam'], a[onclick^='return Board.reportPost'], div[onclick^='wall.markAsSpam'], div[onmouseover^='Photoview.showSpamActions'], .reply_delete_button, #idd_item__onReport, a[onclick^='return !showBox(\'abuse.php\''],
+/* no share */ #pv_share, div[onclick^='videoview.sendVideo'],
+/* no subscribe */ #mv_subscribe_block,
+/* no suggest friends */ a[onclick^='return Friends.suggestBox'],
+/* no tag */ #pv_tag_link,
+/* no write message */ .friends_field_act, a[href^='/write'], div.group_send_msg {
+	display: none !important;
+}
+
+}
+
