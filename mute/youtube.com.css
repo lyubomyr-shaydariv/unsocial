@@ -1,0 +1,10 @@
+@-moz-document domain("youtube.com") {
+/* no comment */ ytd-comment-simplebox-renderer,
+/* no menu */ [is='paper-icon-button-light'],
+/* no subscribe */ ytd-subscribe-button-renderer,
+/* no upload */ ytd-button-renderer
+{
+	display: none !important;
+}
+
+}
