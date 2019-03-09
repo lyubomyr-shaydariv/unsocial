@@ -1,0 +1,7 @@
+@-moz-document domain("bitbucket.org") {
+/* sidebar user avatar */ span[role='img'],
+/* repository avatars */ .aui-avatar-inner > img {
+	border-radius: 0 !important;
+}
+
+}
