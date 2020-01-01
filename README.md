@@ -3,6 +3,7 @@
 This is a set of CSS stylesheets for those who want:
 
 * to keep muted in the web;
+* to suppress nag elements;
 * to see square, not round, avatars.
 
 ## How do I use it?

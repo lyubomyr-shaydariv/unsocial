@@ -1,0 +1,9 @@
+@-moz-document domain("instagram.com") {
+/* if the nag blocks scrolling */ body {
+    overflow-y: scroll !important;
+}
+/* no nag */ body > *[role='presentation'] {
+    display: none !important;
+}
+
+}
