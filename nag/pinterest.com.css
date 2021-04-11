@@ -1,0 +1,6 @@
+@-moz-document domain("www.pinterest.com") {
+/* no nag */ div[data-test-id='giftWrap'] {
+    display: none !important;
+}
+
+}
