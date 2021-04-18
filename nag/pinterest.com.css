@@ -1,4 +1,4 @@
-@-moz-document domain("www.pinterest.com") {
+@-moz-document domain("pin.it"), domain("pinterest.at"), domain("pinterest.ca"), domain("pinterest.ch"), domain("pinterest.cl"), domain("pinterest.co.kr"), domain("pinterest.com"), domain("pinterest.com.au"), domain("pinterest.com.mx"), domain("pinterest.co.uk"), domain("pinterest.de"), domain("pinterest.dk"), domain("pinterest.es"), domain("pinterest.fr"), domain("pinterest.ie"), domain("pinterest.it"), domain("pinterest.jp"), domain("pinterest.nz"), domain("pinterest.ph"), domain("pinterest.pt"), domain("pinterest.ru"), domain("pinterest.se") {
 /* no nag */ div[data-test-id='giftWrap'] {
     display: none !important;
 }
